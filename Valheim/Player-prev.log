@@ -6,8 +6,8 @@ Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/c
 Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/libc.so.6
 Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/libc.so.6.dll
 Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/libc.so.6
-Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-00000240922CEE50.dll
-Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-00000240951D0080.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-000001DE952FC270.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-000001DE98570080.dll
 Initialize engine version: 2019.4.20f1 (6dd1c08eedfa)
 [Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1
@@ -18,12 +18,12 @@ Direct3D:
     VRAM:     8043 MB
     Driver:   27.21.14.6140
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.060 seconds
+- Completed reload, in  0.087 seconds
 D3D11 device created for Microsoft Media Foundation video decoding.
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.384700 ms
+UnloadTime: 0.485700 ms
 [Message:   BepInEx] BepInEx 5.4.5.0 - valheim
 [Info   :   BepInEx] Running under Unity v2019.4.20.7197120
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
@@ -38,7 +38,7 @@ UnloadTime: 0.384700 ms
 [Info   :   BepInEx] 1 plugins to load
 [Info   :   BepInEx] Loading [Valheim Plus 0.9]
 [Info   :Valheim Plus] Trying to load the configuration file
-Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-00000240DFC81030.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-000001DEE31AC2A0.dll
 Loading config section AdvancedBuildingMode 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -108,13 +108,37 @@ Loading config section Kiln
 Loading config section Map 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
- Section not enabled 
+ Loading key shareMapProgression 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key exploreRadius 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key playerPositionPublicOnJoin 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key preventPlayerFromTurningOffPublicPosition 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key removeDeathPinOnTombstoneEmpty 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Loading config section Player 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
- Section not enabled 
+ Loading key baseMaximumWeight 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key baseMegingjordBuff 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key baseAutoPickUpRange 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key disableCameraShake 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ Loading key baseUnarmedDamage 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Loading config section Server 
@@ -204,7 +228,7 @@ Loading config section Wagon
 [Info   :Valheim Plus] Configuration file loaded succesfully.
 [Info   :  HarmonyX] ### Harmony id=mod.valheim_plus, version=2.3.0.0, location=C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony.dll, env/clr=4.0.30319.42000, platform=Win32NT
 ### Started from static System.Void HarmonyLib.Tools.Logger::Log(HarmonyLib.Tools.LogChannel channel, System.Func`1<System.String> message), location C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\core\0Harmony.dll
-### At 2021-02-26 08.45.37
+### At 2021-03-05 12.47.23
 [Info   :  HarmonyX] Patching System.Void Player::UpdatePlacementGhost(System.Boolean flashGuardStone) with 1 prefixes, 1 postfixes, 0 transpilers, 0 finalizers
 1 prefixes:
 * static System.Boolean ValheimPlus.ModifyPlacingRestrictionOfGhost::Prefix(Player __instance, System.Boolean flashGuardStone)
@@ -274,7 +298,7 @@ Loading config section Wagon
 
 [Info   :  HarmonyX] Running ILHook manipulator on System.Boolean Inventory::IsTeleportable()
 [Info   :  HarmonyX] Writing postfixes
-Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-00000240DFF9F040.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/Valheim/valheim_Data/Mono/data-000001DEE3154F30.dll
 [Info   :  HarmonyX] Patching System.Void ItemDrop::Awake() with 1 prefixes, 0 postfixes, 0 transpilers, 0 finalizers
 1 prefixes:
 * static System.Void ValheimPlus.ChangeItemData::Prefix(ItemDrop& __instance)
@@ -498,1759 +522,381 @@ Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/c
 [Info   :  HarmonyX] Writing prefixes
 [Info   :Valheim Plus] ValheimPlus [0.9] is up to date.
 [Message:   BepInEx] Chainloader startup complete
-02/26/2021 20:45:38: Starting to load scene:start
+03/05/2021 12:47:24: Starting to load scene:start
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 428 bytes but expected 432 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 536 bytes but expected 540 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 2e20 -> priority: 1 
-  Thread -> id: 3e7c -> priority: 1 
-  Thread -> id: 3c68 -> priority: 1 
-  Thread -> id: 3ae8 -> priority: 1 
-  Thread -> id: 1b1c -> priority: 1 
-  Thread -> id: 1c5c -> priority: 1 
-  Thread -> id: 1b18 -> priority: 1 
-  Thread -> id: 1af0 -> priority: 1 
-UnloadTime: 2.750700 ms
+  Thread -> id: 26d4 -> priority: 1 
+  Thread -> id: 37d0 -> priority: 1 
+  Thread -> id: 2038 -> priority: 1 
+  Thread -> id: 3a40 -> priority: 1 
+  Thread -> id: 3e68 -> priority: 1 
+  Thread -> id: 3a74 -> priority: 1 
+  Thread -> id: 16c8 -> priority: 1 
+  Thread -> id: 804 -> priority: 1 
+UnloadTime: 2.970100 ms
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
 (Filename:  Line: 509)
 
-02/26/2021 20:45:45: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
+03/05/2021 12:47:32: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:45:45: Using mountain distance: 1000
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:45:45: Render threading mode:MultiThreaded
+03/05/2021 12:47:32: Using mountain distance: 1000
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Version generator started. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Version generated with enforced mod : 0.146.11 
+Version generated with enforced mod : 0.147.3 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:45:45: Using environment steamid 892970
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:45:45: Using steam APPID:892970
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:45:45: Authentication:k_ESteamNetworkingAvailability_Attempting
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:45:45: Steam initialized, persona:c2790821
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:45:45: Missing audio clip in music respawn
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:45:45: Checking for installed DLCs
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:45:45: DLC:beta installed:False
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:45:45: Builder started
+03/05/2021 12:47:32: Render threading mode:MultiThreaded
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Version generator started. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Version generated with enforced mod : 0.146.11 
+Version generated with enforced mod : 0.147.3 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:45:46: Loaded localization English
+03/05/2021 12:47:32: Using environment steamid 892970
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:45:46: Loaded localization Chinese
+03/05/2021 12:47:32: Using steam APPID:892970
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:45:46: ARG 0 C:\Program Files (x86)\Steam\steamapps\common\Valheim\valheim.exe
+03/05/2021 12:47:32: Authentication:k_ESteamNetworkingAvailability_Attempting
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:45:46: Vis equip model set to 1
+03/05/2021 12:47:32: Steam initialized, persona:c2790821
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/05/2021 12:47:32: Missing audio clip in music respawn
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/05/2021 12:47:32: Checking for installed DLCs
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/05/2021 12:47:32: DLC:beta installed:False
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/05/2021 12:47:32: Builder started
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Version generator started. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Version generated with enforced mod : 0.147.3 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/05/2021 12:47:33: Loaded localization English
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/05/2021 12:47:33: Loaded localization Chinese
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/05/2021 12:47:33: ARG 0 C:\Program Files (x86)\Steam\steamapps\common\Valheim\valheim.exe
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/05/2021 12:47:33: Vis equip model set to 1
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 87783.
-Total: 42.290200 ms (FindLiveObjects: 2.855700 ms CreateObjectMapping: 6.469900 ms MarkObjects: 32.765000 ms  DeleteObjects: 0.199300 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 87802.
+Total: 45.082300 ms (FindLiveObjects: 2.913400 ms CreateObjectMapping: 6.950800 ms MarkObjects: 34.991900 ms  DeleteObjects: 0.225800 ms)
 
-02/26/2021 20:45:48: UI Group status changed Menu = True
+03/05/2021 12:47:35: UI Group status changed Menu = True
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:45:52: show character selection
+03/05/2021 12:47:38: show character selection
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:02: UI Group status changed SelectCharacter = True
+03/05/2021 12:47:39: OnCharacterStart
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:04: OnCharacterStart
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.987400 ms
+UnloadTime: 7.245500 ms
 Version generator started. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Version generated with enforced mod : 0.146.11 
+Version generated with enforced mod : 0.147.3 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: Loading player profile testest
+03/05/2021 12:47:44: Loading player profile ebyy
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: Zonesystem Awake 1546
+03/05/2021 12:47:44: Zonesystem Awake 612
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: DungeonDB Awake 1546
+03/05/2021 12:47:44: DungeonDB Awake 612
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: Steam initialized, persona:c2790821
+03/05/2021 12:47:44: Steam initialized, persona:c2790821
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:12: Registering lobby
+03/05/2021 12:47:44: Initializing world generator seed:HXCiFK8gY6 ( 2135528559 )   menu:False  worldgen version:1
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: Initializing world generator seed:d5X8kZheRD ( -1838618137 )   menu:False  worldgen version:1
+03/05/2021 12:47:44: Using mountain distance: 1000
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: Using mountain distance: 1000
+03/05/2021 12:47:44: Found 509 mountain points
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: Found 559 mountain points
+03/05/2021 12:47:44: Remaining mountains:71
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: Remaining mountains:71
+03/05/2021 12:47:44: Calc time 17.255 ms
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: Calc time 16.9545 ms
+03/05/2021 12:47:44: Found 8155 lake points
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:12: Found 8517 lake points
+03/05/2021 12:47:45: Remaining lakes:114
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:14: Remaining lakes:115
+03/05/2021 12:47:45: Calc time 1512.0366 ms
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:14: Calc time 1628.799 ms
+03/05/2021 12:47:45: Rivers:146
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:14: Rivers:156
+03/05/2021 12:47:45: River buckets 14341
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:14: River buckets 15434
+03/05/2021 12:47:45: River render time 214.0005 ms
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:14: River render time 211.0711 ms
+03/05/2021 12:47:45: River Calc time 225.0002 ms
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:14: River Calc time 221.0452 ms
+03/05/2021 12:47:46: River buckets 22957
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: River buckets 23908
+03/05/2021 12:47:46: River render time 359.9996 ms
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: River render time 321.1135 ms
+03/05/2021 12:47:46: Placed 1884 streams
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: Placed 1901 streams
+03/05/2021 12:47:46: Stream Calc time 811.0001 ms
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: Stream Calc time 756.9753 ms
+03/05/2021 12:47:46: Load world EBYYsWorld
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: Load world testetst
+03/05/2021 12:47:46: Loading 601622 zdos , my id 1057458245 data version:26
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: Loading 21997 zdos , my id 80714289 data version:26
+03/05/2021 12:47:48: Loaded 100000 dead zdos
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: Loaded 41 dead zdos
+03/05/2021 12:47:48: Removed 0 OLD generated ZDOS
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: Removed 0 OLD generated ZDOS
+03/05/2021 12:47:48: Loaded 7117 locations
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: Loaded 7092 locations
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:15: Audioman already exist, destroying self
+03/05/2021 12:47:48: Audioman already exist, destroying self
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Version generator started. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Version generated with enforced mod : 0.146.11 
+Version generated with enforced mod : 0.147.3 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: Checking for installed DLCs
+03/05/2021 12:47:48: Checking for installed DLCs
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:15: DLC:beta installed:False
+03/05/2021 12:47:48: DLC:beta installed:False
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 498 unused Assets to reduce memory usage. Loaded Objects now: 87018.
-Total: 57.230000 ms (FindLiveObjects: 2.838100 ms CreateObjectMapping: 6.250500 ms MarkObjects: 45.140600 ms  DeleteObjects: 3.000600 ms)
+Unloading 512 unused Assets to reduce memory usage. Loaded Objects now: 87037.
+Total: 213.553300 ms (FindLiveObjects: 2.773200 ms CreateObjectMapping: 5.956100 ms MarkObjects: 200.756000 ms  DeleteObjects: 4.066100 ms)
 
-02/26/2021 20:46:17: Zonesystem Start 1546
+03/05/2021 12:47:50: Zonesystem Start 612
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:17: DungeonDB Start 1546
+03/05/2021 12:47:50: DungeonDB Start 612
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:18: Starting respawn
+03/05/2021 12:47:51: Starting respawn
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:18: Lobby was created k_EResultOK  109775241064131052  error:False
+03/05/2021 12:47:58: tip:$loadscreen_tip22
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:18: Got requested lobby data
+03/05/2021 12:48:00: Force generaeting hmap (-320.0, 0.0, 1472.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:25: tip:$loadscreen_tip10
+03/05/2021 12:48:00: Force generaeting hmap (-320.0, 0.0, 1344.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:25: Got requested lobby data
+03/05/2021 12:48:00: Force generaeting hmap (-256.0, 0.0, 1344.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:27: Setting up valkyrie 
+03/05/2021 12:48:00: Force generaeting hmap (-384.0, 0.0, 1408.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:27: Show intro 1724
+03/05/2021 12:48:00: Force generaeting hmap (-320.0, 0.0, 1408.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:46:27: Show text YOU DIED:在很久很久以前，诸神之父奥丁统领着整个世界。 他打败了所有的敌人并把他们抛入了第十大神界，然后把支撑这炼狱的巨木劈开，取了其中一块变成了世界之树，并让它孤零零地留在了这被遗忘的放逐者之境...
-
-
-数百年以来，这个世界虽在沉睡，但实则躁动不安。 但是，它并没有死去...一整个冰川世纪过去了，王朝兴起又衰落，而诸神并不知晓。 
-
-
-当奥丁听说他的敌人们正在重新生长，恢复力量，他派出了女武神们到人界为他找到最勇猛的战士们。 他们在人界已经死去，而他们即将重生在...
-
-
-...英灵神殿！
-
-
-
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:27: World pos (-920.9, 190.0, 74.8)   (-920.7, 189.4, 74.6)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:27: Minimap: Adding unique location (-124.7, 77.0, -2.3)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:28: Placed locations in zone -13,3  duration 6.9817 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:28: Placed locations in zone -12,-3  duration 3.9893 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:29: Placed locations in zone -12,1  duration 0.997 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:29: Placed locations in zone -13,-3  duration 0 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:29: Placed locations in zone -12,-2  duration 0 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:30: Placed locations in zone -12,0  duration 7.9789 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:32: Placed locations in zone -11,-3  duration 2.9917 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:32: Placed locations in zone -18,-2  duration 1.9946 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:33: Spawned Seagal x 1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:33: Spawned Fish2 x 2
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:33: Placed locations in zone -11,2  duration 0 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:33: Placed locations in zone -11,0  duration 0 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:34: Placed locations in zone -10,1  duration 2.9924 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:34: UI Group status changed MenuRoot = False
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: ZNet Shutdown
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: clone 27
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: Saved 28597 zdos
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: World saved ( 67.8181ms )
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: Sending disconnect msg
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: Disposing socket
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: Stopping listening socket
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: Last socket, unregistering callback
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: Local player destroyed
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:35: Destroying valkyrie
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 536 bytes but expected 540 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-02/26/2021 20:46:36: ZNet OnDestroy
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:36: Net scene destroyed
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-UnloadTime: 450.701200 ms
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
-(Filename:  Line: 509)
-
-02/26/2021 20:46:36: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:36: Using mountain distance: 1000
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:36: Render threading mode:MultiThreaded
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:36: Steam initialized, persona:c2790821
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:36: Audioman already exist, destroying self
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:36: Checking for installed DLCs
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:36: DLC:beta installed:False
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-
-Unloading 550 unused Assets to reduce memory usage. Loaded Objects now: 86707.
-Total: 58.627800 ms (FindLiveObjects: 2.768300 ms CreateObjectMapping: 5.929200 ms MarkObjects: 48.455000 ms  DeleteObjects: 1.474900 ms)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:37: Got requested lobby data
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:38: UI Group status changed Menu = True
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:39: show character selection
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:41: Vis equip model set to 1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:41: OnCharacterStart
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.485200 ms
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Loading player profile ebyy
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Zonesystem Awake 3450
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: DungeonDB Awake 3450
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Steam initialized, persona:c2790821
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Registering lobby
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Initializing world generator seed:d5X8kZheRD ( -1838618137 )   menu:False  worldgen version:1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Using mountain distance: 1000
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Found 559 mountain points
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Remaining mountains:71
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Calc time 16.9548 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:48: Found 8517 lake points
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:50: Remaining lakes:115
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:50: Calc time 1631.33 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:50: Rivers:156
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:50: River buckets 15434
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:50: River render time 202.9616 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:50: River Calc time 211.938 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: River buckets 23908
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: River render time 311.3283 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: Placed 1901 streams
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: Stream Calc time 744.1725 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: Load world testetst
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: Loading 28597 zdos , my id -118914431 data version:26
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: Loaded 41 dead zdos
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: Removed 0 OLD generated ZDOS
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: Loaded 7092 locations
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: Audioman already exist, destroying self
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: Checking for installed DLCs
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:51: DLC:beta installed:False
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-
-Unloading 517 unused Assets to reduce memory usage. Loaded Objects now: 87025.
-Total: 62.612900 ms (FindLiveObjects: 2.724700 ms CreateObjectMapping: 5.805200 ms MarkObjects: 50.867100 ms  DeleteObjects: 3.215400 ms)
-
-02/26/2021 20:46:53: Zonesystem Start 3450
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:53: DungeonDB Start 3450
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:53: Starting respawn
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:53: Lobby was created k_EResultOK  109775241064132459  error:False
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:46:53: Got requested lobby data
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:01: tip:$loadscreen_tip16
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:01: Got requested lobby data
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:09: Spawned after 8.019994
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:09: Vis equip model set to 1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:09: Minimap: Adding unique location (-124.7, 77.0, -2.3)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:11: Resumed music meadows at 0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:12: Setting selected recipe 0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:12: UI Group status changed root = True
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:12: UI Group status changed Player = True
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:16: Setting selected recipe 0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:16: UI Group status changed root = True
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:16: UI Group status changed Player = True
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:19: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:19: New connection
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:19: Accepting connection k_EResultOK
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:19: Connecting to Steamworks.SteamNetworkingIdentity
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:19: Got status changed msg k_ESteamNetworkingConnectionState_FindingRoute
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:23: Got status changed msg k_ESteamNetworkingConnectionState_Connected
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:23: Got handshake from client 76561198083461746
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:26: VERSION check their:0.146.11@0.9  mine:0.146.11@0.9
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:26: Server: New peer connected,sending global keys
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:27: DiscoverClosestLocation
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:27: Found location of type Eikthyrnir
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [AdvancedBuildingMode]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enterAdvancedBuildingMode=F1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: exitAdvancedBuildingMode=F3
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [AdvancedEditingMode]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enterAdvancedEditingMode=Keypad0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: resetAdvancedEditingMode=F7
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: abortAndExitAdvancedEditingMode=F8
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: confirmPlacementOfAdvancedEditingMode=KeypadEnter
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Beehive]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: honeyProductionSpeed=1200
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: maximumHoneyPerBeehive=4
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Building]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: noInvalidPlacementRestriction=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: noWeatherDamage=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: maximumPlacementDistance=5
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Items]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: noTeleportPrevention=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: baseItemWeightReduction=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: itemStackMultiplier=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Fermenter]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: fermenterDuration=2400
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: fermenterItemsProduced=6
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Fireplace]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: onlyTorches=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Food]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: foodDurationMultiplier=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Furnace]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: maximumOre=10
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: maximumCoal=20
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: coalUsedPerProduct=2
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: productionSpeed=30
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Game]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: gameDifficultyDamageScale=0.4
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: gameDifficultyHealthScale=0.4 
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: extraPlayerCountNearby=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: setFixedPlayerCountTo=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: difficultyScaleRange=200
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Hotkeys]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: rollForwards=F9
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: rollBackwards=F10
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Hud]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: showRequiredItems=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: experienceGainedNotifications=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Kiln]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: maximumWood=20
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: productionSpeed=30
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Map]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: shareMapProgression=true
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: exploreRadius=100
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: playerPositionPublicOnJoin=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: preventPlayerFromTurningOffPublicPosition=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: removeDeathPinOnTombstoneEmpty=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Player]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: baseMaximumWeight=300
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: baseMegingjordBuff=150
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: baseAutoPickUpRange=2
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: disableCameraShake=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: baseUnarmedDamage=10
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Server]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=true
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: maxPlayers=10
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: disableServerPassword=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enforceMod=true
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: dataRate=60
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: autoSaveInterval=1200
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Stamina]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: dodgeStaminaUsage=10
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: encumberedStaminaDrain=10
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: jumpStaminaDrain=10
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: runStaminaDrain=10
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: sneakStaminaDrain=10
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: staminaRegen=5
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: staminaRegenDelay=1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: swimStaminaDrain=5
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [StaminaUsage]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: axes=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: bows=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: clubs=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: knives=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: pickaxes=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: polearms=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: spears=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: swords=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: unarmed=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: hammer=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: hoe=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Workbench]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: workbenchRange=20
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: disableRoofCheck=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Time]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: totalDayTimeInSeconds=1200
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: nightTimeSpeedMultiplier=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Ward]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: wardRange=20
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [StructuralIntegrity]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: disableStructuralIntegrity=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: wood=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: stone=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: iron=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: hardWood=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Experience]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: swords=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: knives=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: clubs=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: polearms=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: spears=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: blocking=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: axes=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: bows=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: fireMagic=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: frostMagic=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: unarmed=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: pickaxes=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: woodCutting=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: jump=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: sneak=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: run=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: swim=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Camera]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: cameraMaximumZoomDistance=6
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: cameraBoatMaximumZoomDistance=6
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: cameraFOV=65
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: [Wagon]
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: enabled=false
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: wagonBaseMass=20
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: SENTCONFIG: wagonExtraMassFromItems=0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:30: VPlus configuration synced to peer #3682771591
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:47:47: Got character ZDOID from 咖挖棒嘎 : 3682771591:1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:02: Placed locations in zone -4,5  duration 0 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:02: Placed locations in zone -2,5  duration 3.9896 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:03: Placed locations in zone 0,5  duration 1.9945 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:03: Placed locations in zone 2,5  duration 0 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:03: Spawned Deer x 1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:03: Spawned Deer x 1
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:06: Placed locations in zone -7,4  duration 8.9761 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:06: Placed locations in zone -7,5  duration 0.9972 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:09: Player 3682771591 wants to pickup Mushroom(Clone)   im: -118914431
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:09: Player 3682771591 wants to pickup Mushroom(Clone)   im: -118914431
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:09:   but im not the owner
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:09: Player 3682771591 wants to pickup Mushroom(Clone)   im: -118914431
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:09: Player 3682771591 wants to pickup Mushroom(Clone)   im: -118914431
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:09: Player 3682771591 wants to pickup Mushroom(Clone)   im: -118914431
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:12: Player 3682771591 wants to pickup Mushroom(Clone)   im: -118914431
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:43: Loading dungeon
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:43: Dungeon loaded 0
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:43: Dungeon load time 0.9974 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:43: Available rooms:13
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:43: To place:30
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:43: Placed 12 rooms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:43: Placed locations in zone -5,7  duration 135.6649 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:43: Placed locations in zone -3,7  duration 0 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:43: Placed locations in zone 0,7  duration 0 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:44: Placed locations in zone 1,7  duration 2.9924 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:44: Placed locations in zone 2,7  duration 10.9713 ms
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:54: UI Group status changed MenuRoot = False
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:54: ZNet Shutdown
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:55: clone 35
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:55: Saved 34209 zdos
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:55: World saved ( 83.1003ms )
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:55: Sending disconnect msg
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:55: Sent to 76561198083461746
+03/05/2021 12:48:00: Force generaeting hmap (-256.0, 0.0, 1408.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55: Disposing socket
+03/05/2021 12:48:00: Force generaeting hmap (-320.0, 0.0, 1472.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55: Stopping listening socket
+03/05/2021 12:48:00: Force generaeting hmap (-256.0, 0.0, 1344.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55: Disposing socket
+03/05/2021 12:48:00: Force generaeting hmap (-320.0, 0.0, 1408.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55: Closing socket 76561198083461746
+03/05/2021 12:48:00: Force generaeting hmap (-256.0, 0.0, 1408.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55:   send queue size:0
+03/05/2021 12:48:00: Force generaeting hmap (-384.0, 0.0, 1536.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55: Last socket, unregistering callback
+03/05/2021 12:48:01: Force generaeting hmap (-320.0, 0.0, 1536.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+03/05/2021 12:48:01: Force generaeting hmap (-320.0, 0.0, 1600.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55: Disposing socket
+03/05/2021 12:48:01: Force generaeting hmap (-256.0, 0.0, 1600.0)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55: Last socket, unregistering callback
+03/05/2021 12:48:06: Spawned after 8.019994
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:55: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+03/05/2021 12:48:06: Vis equip model set to 1
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/26/2021 20:48:55: Local player destroyed
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 536 bytes but expected 540 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
 
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-A scripted object (probably UnityEngine.UI.InputField?) has a different serialization layout when loading. (Read 424 bytes but expected 428 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2324)
-
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-02/26/2021 20:48:56: ZNet OnDestroy
+03/05/2021 12:48:06: Minimap: Adding unique location (3.4, 34.7, 2.9)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:56: Net scene destroyed
+03/05/2021 12:48:06: Minimap: Adding unique location (-1132.6, 41.3, 4103.3)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-UnloadTime: 803.365900 ms
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
-(Filename:  Line: 509)
-
-02/26/2021 20:48:56: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
+03/05/2021 12:48:07: Resumed music home at 0
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:56: Using mountain distance: 1000
+03/05/2021 12:48:13: UI Group status changed MenuRoot = False
  
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:56: Render threading mode:MultiThreaded
+03/05/2021 12:48:13: Game - OnApplicationQuit
  
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:56: Steam initialized, persona:c2790821
+03/05/2021 12:48:13: ZNet Shutdown
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:56: Audioman already exist, destroying self
+03/05/2021 12:48:14: clone 617
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:56: Checking for installed DLCs
+03/05/2021 12:48:15: Saved 601622 zdos
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:56: DLC:beta installed:False
+03/05/2021 12:48:15: World saved ( 1001.6072ms )
  
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-
-Unloading 559 unused Assets to reduce memory usage. Loaded Objects now: 86733.
-Total: 62.703700 ms (FindLiveObjects: 3.021500 ms CreateObjectMapping: 5.341700 ms MarkObjects: 52.828000 ms  DeleteObjects: 1.512200 ms)
-
-Version generator started. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Version generated with enforced mod : 0.146.11 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:57: Vis equip model set to 1
+03/05/2021 12:48:15: Sending disconnect msg
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:57: Got requested lobby data
+03/05/2021 12:48:17: Local player destroyed
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:58: UI Group status changed Menu = True
+03/05/2021 12:48:17: ZNet OnDestroy
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:48:59: Stoped music meadows at 4758566
+03/05/2021 12:48:17: Net scene destroyed
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/26/2021 20:49:00: Steam manager on destroy
+03/05/2021 12:48:18: Steam manager on destroy
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
